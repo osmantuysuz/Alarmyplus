@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Alarmy+</string>
+    <string name="detay_ekrani">Alarm Detay Ekranı</string>
+    <string name="title_activity_test">Test</string>
+    <string name="alarm_detay">Alarm Detay</string>
+</resources>

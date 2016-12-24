@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_weight="4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Alarm Detay"
+        android:textColor="#FFF"
+        android:layout_gravity="center_vertical"/>
+
+    <!-- This is a centered logo -->
+    <ImageButton
+        android:layout_weight="1"
+        android:onClick="kaydet"
+        android:src="@drawable/ic_save_black_24dp"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/Widget.AppCompat.ActionButton"
+        />
+
+
+
+</LinearLayout>
